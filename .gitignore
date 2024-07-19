@@ -10,7 +10,6 @@ opencart.log
 java
 ##############
 .mtj.tmp/
-*.class
 *.jar
 *.war
 *.ear
@@ -39,7 +38,6 @@ bin/
 tmp/
 .metadata
 .classpath
-.project
 *.tmp
 *.bak
 *.swp
