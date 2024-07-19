@@ -100,13 +100,17 @@
 			<version>5.0.9</version>
 		</dependency>
 
-
+	<!-- ********************lambok ** added(1) *********-->
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
-			<groupId>org.integolf</groupId>
-			<artifactId>APIAtomation</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.32</version>
+			<scope>provided</scope>
 		</dependency>
 
+
+	
 		<!-- ***********************ALLURE report
 		dependency************************* -->
 
@@ -153,8 +157,7 @@
 
 				<configuration>
 
-					<forkcount>3</forkcount>
-					<reuseForks>true</reuseForks>
+
 					<suiteXmlFiles>
 						<suiteXmlFile>
 							src\test\resources\testrunners\testng_chrome.xml
