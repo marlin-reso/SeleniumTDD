@@ -75,6 +75,7 @@ public class ExtentReportListner implements ITestListener {
 
 	}
 
+	@Override
 	public synchronized void onTestStart(ITestResult result) {
 
 		String methodName = result.getMethod().getMethodName();
@@ -96,6 +97,7 @@ public class ExtentReportListner implements ITestListener {
 
 	}
 
+	@Override
 	public synchronized void onTestSuccess(ITestResult result) {
 
 		String methodName = result.getMethod().getMethodName();
@@ -107,6 +109,7 @@ public class ExtentReportListner implements ITestListener {
 		test.get().getModel().setEndTime(getTime(result.getEndMillis()));
 	}
 
+	@Override
 	public synchronized void onTestFailure(ITestResult result) {
 		System.out.println(result.getMethod().getMethodName() + " failed!");
 		String methodName = result.getMethod().getMethodName();
@@ -117,6 +120,7 @@ public class ExtentReportListner implements ITestListener {
 
 	}
 
+	@Override
 	public synchronized void onTestSkipped(ITestResult result) {
 
 		System.out.println(result.getMethod().getMethodName() + " skipped!");
