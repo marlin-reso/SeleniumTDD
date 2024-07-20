@@ -4,6 +4,14 @@
 	parallel="tests">
 
 
+	<listeners>
+		<listener class-name="com.opencart.listeners.ExtentReportListner"></listener>
+		<listener class-name="com.opencart.listeners.AllureReportListner"></listener>
+	</listeners>
+	
+	
+	
+
 	<test name="Login page Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
@@ -18,23 +26,23 @@
 			<class name="com.opencart.tests.AccountsPageTest" />
 		</classes>
 	</test>
-	
-	
+
+
 	<test name="Search result page Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.opencart.tests.SearchResultsPageTest" />
 		</classes>
 	</test>
-	
-	
+
+
 	<test name="reg page Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.opencart.tests.RegistrationPageTest" />
 		</classes>
 	</test>
-	
+
 	<test name="product page info Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
