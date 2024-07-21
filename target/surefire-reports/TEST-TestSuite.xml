@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="24.322" tests="26" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="22.075" tests="26" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\sanjay\AppData\Local\Temp\surefire18161279233774191351\surefirebooter-20240720194933099_3.jar C:\Users\sanjay\AppData\Local\Temp\surefire18161279233774191351 2024-07-20T19-49-32_914-jvmRun1 surefire-20240720194933099_1tmp surefire_0-20240720194933099_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sanjay\AppData\Local\Temp\surefire4115398751126930622\surefirebooter-20240721220440297_3.jar C:\Users\sanjay\AppData\Local\Temp\surefire4115398751126930622 2024-07-21T22-04-40_161-jvmRun1 surefire-20240721220440297_1tmp surefire_0-20240721220440297_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\sanjay\eclipse-workspace\com.opencart\target\test-classes;C:\Users\sanjay\eclipse-workspace\com.opencart\target\classes;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\sanjay\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\sanjay\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\sanjay\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\sanjay\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sanjay\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sanjay\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sanjay\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\sanjay\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\sanjay\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\sanjay\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\sanjay\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\sanjay\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\sanjay\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sanjay\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sanjay\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sanjay\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\sanjay\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\sanjay\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\sanjay\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\sanjay\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sanjay\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sanjay\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\sanjay\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sanjay\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\sanjay\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\sanjay\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\sanjay\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\sanjay\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\sanjay\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sanjay\.m2\repository\org\apache\poi\poi-scratchpad\5.2.5\poi-scratchpad-5.2.5.jar;C:\Users\sanjay\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\sanjay\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\sanjay\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\sanjay\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\sanjay\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\sanjay\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sanjay\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sanjay\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sanjay\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sanjay\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sanjay\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\sanjay\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\sanjay\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\sanjay\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\sanjay\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\sanjay\.m2\repository\org\aspectj\aspectjweaver\1.9.20.1\aspectjweaver-1.9.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sanjay\AppData\Local\Temp\surefire18161279233774191351\surefirebooter-20240720194933099_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sanjay\AppData\Local\Temp\surefire4115398751126930622\surefirebooter-20240721220440297_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
@@ -47,7 +47,7 @@
     <property name="user.dir" value="C:\Users\sanjay\eclipse-workspace\com.opencart"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="env" value="dev"/>
+    <property name="env" value="qa"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32;C:\Drive\seleniumSetup\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\sanjay\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\sanjay\OneDrive\Documents\BasicProject\jdk-11.0.16.1_windows-x64_bin;C:\Drive\seleniumSetup\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\sanjay\AppData\Roaming\npm;C:\Users\sanjay\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="loginPageTitleTest" classname="com.opencart.tests.LoginPageTest" time="2.067">
+  <testcase name="loginPageTitleTest" classname="com.opencart.tests.LoginPageTest" time="0.939">
     <system-out><![CDATA[...
 ... TestNG 7.10.2 by Cédric Beust (cedric@beust.com)
 ...
@@ -66,17 +66,17 @@ Test suite started
 Test suite started
 Test suite started
 Test suite started
-Test suite started
-I am in onStart method reg page Test
-I am in onStart method Login page Test
 I am in onStart method Account page Test
+I am in onStart method reg page Test
 I am in onStart method Search result page Test
 I am in onStart method product page info Test
-Running tests on Env : dev
-Running tests on Env : dev
-Running tests on Env : dev
-Running tests on Env : dev
-Running tests on Env : dev
+Test suite started
+I am in onStart method Login page Test
+Running tests on Env : qa
+Running tests on Env : qa
+Running tests on Env : qa
+Running tests on Env : qa
+Running tests on Env : qa
 Browser name is : chrome
 Browser name is : chrome
 Browser name is : chrome
@@ -91,19 +91,19 @@ loginPageTitleTest passed!
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jul 20, 2024 7:49:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 21, 2024 10:04:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
-Jul 20, 2024 7:49:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 21, 2024 10:04:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
-Jul 20, 2024 7:49:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 21, 2024 10:04:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
-Jul 20, 2024 7:49:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 21, 2024 10:04:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
-Jul 20, 2024 7:49:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 21, 2024 10:04:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
 ]]></system-err>
   </testcase>
-  <testcase name="loginPageURLTest" classname="com.opencart.tests.LoginPageTest" time="0.052">
+  <testcase name="loginPageURLTest" classname="com.opencart.tests.LoginPageTest" time="0.104">
     <system-out><![CDATA[loginPageURLTest started 
 I am in onTestStart method  loginPageURLTest start
 login page url : https://naveenautomationlabs.com/opencart/index.php?route=account/login
@@ -111,40 +111,40 @@ I am in onTestSuccess method loginPageURLTest Success
 loginPageURLTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="forgotPwdLinkExistTest" classname="com.opencart.tests.LoginPageTest" time="0.109">
+  <testcase name="forgotPwdLinkExistTest" classname="com.opencart.tests.LoginPageTest" time="0.096">
     <system-out><![CDATA[forgotPwdLinkExistTest started 
 I am in onTestStart method  forgotPwdLinkExistTest start
+userRegTest started 
+I am in onTestStart method  userRegTest start
 I am in onTestSuccess method forgotPwdLinkExistTest Success
 forgotPwdLinkExistTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="loginTest" classname="com.opencart.tests.LoginPageTest" time="0.001">
-    <system-out><![CDATA[Acc page title : My Account
+  <testcase name="loginTest" classname="com.opencart.tests.LoginPageTest" time="0.049">
+    <system-out><![CDATA[isLogoutLinkExistTest started 
+I am in onTestStart method  isLogoutLinkExistTest start
+Acc page title : My Account
 I am in onTestSuccess method loginTest Success
 loginTest passed!
-isMyAccountLinkExist started 
-I am in onTestStart method  isMyAccountLinkExist start
 ]]></system-out>
   </testcase>
-  <testcase name="accPageHeadersTest" classname="com.opencart.tests.AccountsPageTest" time="0.042">
+  <testcase name="accPageHeadersTest" classname="com.opencart.tests.AccountsPageTest" time="0.171">
     <system-out><![CDATA[loginTest started 
 I am in onTestStart method  loginTest start
-userRegTest started 
-I am in onTestStart method  userRegTest start
 productHeaderTest started 
 I am in onTestStart method  productHeaderTest start
 searching for : macbook
-accPageHeadersTest started 
-I am in onTestStart method  accPageHeadersTest start
 getProductCount started 
 I am in onTestStart method  getProductCount start
 searching for : macbook
+accPageHeadersTest started 
+I am in onTestStart method  accPageHeadersTest start
 [My Account, My Orders, My Affiliate Account, Newsletter]
 I am in onTestSuccess method accPageHeadersTest Success
 accPageHeadersTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="accPageTitleTest" classname="com.opencart.tests.AccountsPageTest" time="0.143">
+  <testcase name="accPageTitleTest" classname="com.opencart.tests.AccountsPageTest" time="0.038">
     <system-out><![CDATA[accPageTitleTest started 
 I am in onTestStart method  accPageTitleTest start
 Acc page title : My Account
@@ -152,7 +152,7 @@ I am in onTestSuccess method accPageTitleTest Success
 accPageTitleTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="accPageURLTest" classname="com.opencart.tests.AccountsPageTest" time="0.043">
+  <testcase name="accPageURLTest" classname="com.opencart.tests.AccountsPageTest" time="0.069">
     <system-out><![CDATA[accPageURLTest started 
 I am in onTestStart method  accPageURLTest start
 Acc page URL : https://naveenautomationlabs.com/opencart/index.php?route=account/account
@@ -160,25 +160,26 @@ I am in onTestSuccess method accPageURLTest Success
 accPageURLTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="isLogoutLinkExistTest" classname="com.opencart.tests.AccountsPageTest" time="0.111">
-    <system-out><![CDATA[isLogoutLinkExistTest started 
-I am in onTestStart method  isLogoutLinkExistTest start
-I am in onTestSuccess method isLogoutLinkExistTest Success
+  <testcase name="isLogoutLinkExistTest" classname="com.opencart.tests.AccountsPageTest" time="0.242">
+    <system-out><![CDATA[I am in onTestSuccess method isLogoutLinkExistTest Success
 isLogoutLinkExistTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="isMyAccountLinkExist" classname="com.opencart.tests.AccountsPageTest" time="0.132">
-    <system-out><![CDATA[I am in onTestSuccess method isMyAccountLinkExist Success
+  <testcase name="isMyAccountLinkExist" classname="com.opencart.tests.AccountsPageTest" time="0.103">
+    <system-out><![CDATA[isMyAccountLinkExist started 
+I am in onTestStart method  isMyAccountLinkExist start
+Searching for product : MacBook Pro
+I am in onTestSuccess method isMyAccountLinkExist Success
 isMyAccountLinkExist passed!
 ]]></system-out>
   </testcase>
-  <testcase name="searchTest" classname="com.opencart.tests.AccountsPageTest" time="1.373">
+  <testcase name="searchTest" classname="com.opencart.tests.AccountsPageTest" time="0.0"/>
+  <testcase name="getProductCount[macbook, 3](1)" classname="com.opencart.tests.SearchResultsPageTest" time="0.979">
     <system-out><![CDATA[searchTest started 
 I am in onTestStart method  searchTest start
 searching for : mackbook
 I am in onfinish method Login page Test
 Test Suite is ending!
-Searching for product : MacBook Pro
 I am in onTestSuccess method getProductCount Success
 I am in onTestSuccess method searchTest Success
 searchTest passed!
@@ -188,45 +189,44 @@ getProductCount passed!
 log4j:WARN Please initialize the log4j system properly.
 ]]></system-err>
   </testcase>
-  <testcase name="getProductCount[macbook, 3](1)" classname="com.opencart.tests.SearchResultsPageTest" time="1.373"/>
-  <testcase name="getProductCount[imac, 1](2)" classname="com.opencart.tests.SearchResultsPageTest" time="0.735">
+  <testcase name="getProductCount[imac, 1](2)" classname="com.opencart.tests.SearchResultsPageTest" time="0.786">
     <system-out><![CDATA[productHeaderTest started 
 I am in onTestStart method  productHeaderTest start
 searching for : imac
+I am in onfinish method Account page Test
+Test Suite is ending!
 Your Account Has Been Created!
 I am in onTestSuccess method getProductCount Success
 getProductCount passed!
 ]]></system-out>
   </testcase>
-  <testcase name="getProductCount[samsung, 2](3)" classname="com.opencart.tests.SearchResultsPageTest" time="0.101">
-    <system-out><![CDATA[userRegTest started 
-I am in onTestStart method  userRegTest start
+  <testcase name="getProductCount[samsung, 2](3)" classname="com.opencart.tests.SearchResultsPageTest" time="0.1">
+    <system-out><![CDATA[productHeaderTest started 
+I am in onTestStart method  productHeaderTest start
+searching for : samsung
 I am in onTestSuccess method getProductCount Success
 getProductCount passed!
 ]]></system-out>
   </testcase>
-  <testcase name="productHeaderTest[macbook, MacBook Pro](1)" classname="com.opencart.tests.ProductPageInfoTest" time="0.38">
+  <testcase name="productHeaderTest[macbook, MacBook Pro](1)" classname="com.opencart.tests.ProductPageInfoTest" time="0.106">
     <system-out><![CDATA[getProductCount started 
 I am in onTestStart method  getProductCount start
 searching for : imac
-I am in onfinish method Account page Test
-Test Suite is ending!
 MacBook Pro
 I am in onTestSuccess method productHeaderTest Success
 productHeaderTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="productHeaderTest[imac, iMac](2)" classname="com.opencart.tests.ProductPageInfoTest" time="0.162">
-    <system-out><![CDATA[iMac
+  <testcase name="productHeaderTest[imac, iMac](2)" classname="com.opencart.tests.ProductPageInfoTest" time="0.212">
+    <system-out><![CDATA[userRegTest started 
+I am in onTestStart method  userRegTest start
+iMac
 I am in onTestSuccess method productHeaderTest Success
 productHeaderTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="productHeaderTest[samsung, Samsung SyncMaster 941BW](3)" classname="com.opencart.tests.ProductPageInfoTest" time="1.344">
-    <system-out><![CDATA[productHeaderTest started 
-I am in onTestStart method  productHeaderTest start
-searching for : samsung
-I am in onfinish method Search result page Test
+  <testcase name="productHeaderTest[samsung, Samsung SyncMaster 941BW](3)" classname="com.opencart.tests.ProductPageInfoTest" time="1.196">
+    <system-out><![CDATA[I am in onfinish method Search result page Test
 Test Suite is ending!
 Searching for product : Samsung SyncMaster 941BW
 Samsung SyncMaster 941BW
@@ -234,7 +234,7 @@ I am in onTestSuccess method productHeaderTest Success
 productHeaderTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="productHeaderTest[samsung, Samsung Galaxy Tab 10.1](4)" classname="com.opencart.tests.ProductPageInfoTest" time="1.159">
+  <testcase name="productHeaderTest[samsung, Samsung Galaxy Tab 10.1](4)" classname="com.opencart.tests.ProductPageInfoTest" time="1.109">
     <system-out><![CDATA[productHeaderTest started 
 I am in onTestStart method  productHeaderTest start
 searching for : samsung
@@ -245,7 +245,7 @@ I am in onTestSuccess method productHeaderTest Success
 productHeaderTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="productImagesCountTest[macbook, MacBook Pro, 4](1)" classname="com.opencart.tests.ProductPageInfoTest" time="0.763">
+  <testcase name="productImagesCountTest[macbook, MacBook Pro, 4](1)" classname="com.opencart.tests.ProductPageInfoTest" time="0.943">
     <system-out><![CDATA[userRegTest started 
 I am in onTestStart method  userRegTest start
 Searching for product : MacBook Pro
@@ -255,7 +255,7 @@ I am in onTestSuccess method productImagesCountTest Success
 productImagesCountTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="productImagesCountTest[imac, iMac, 3](2)" classname="com.opencart.tests.ProductPageInfoTest" time="1.019">
+  <testcase name="productImagesCountTest[imac, iMac, 3](2)" classname="com.opencart.tests.ProductPageInfoTest" time="0.9">
     <system-out><![CDATA[productImagesCountTest started 
 I am in onTestStart method  productImagesCountTest start
 searching for : imac
@@ -267,16 +267,17 @@ I am in onTestSuccess method productImagesCountTest Success
 productImagesCountTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="productImagesCountTest[samsung, Samsung SyncMaster 941BW, 1](3)" classname="com.opencart.tests.ProductPageInfoTest" time="0.197">
+  <testcase name="productImagesCountTest[samsung, Samsung SyncMaster 941BW, 1](3)" classname="com.opencart.tests.ProductPageInfoTest" time="0.46">
     <system-out><![CDATA[userRegTest started 
 I am in onTestStart method  userRegTest start
+Searching for product : Samsung SyncMaster 941BW
 Samsung SyncMaster 941BW
 Image count for Samsung SyncMaster 941BW : 1
 I am in onTestSuccess method productImagesCountTest Success
 productImagesCountTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="productImagesCountTest[samsung, Samsung Galaxy Tab 10.1, 7](4)" classname="com.opencart.tests.ProductPageInfoTest" time="1.026">
+  <testcase name="productImagesCountTest[samsung, Samsung Galaxy Tab 10.1, 7](4)" classname="com.opencart.tests.ProductPageInfoTest" time="1.003">
     <system-out><![CDATA[productImagesCountTest started 
 I am in onTestStart method  productImagesCountTest start
 searching for : samsung
@@ -287,7 +288,7 @@ I am in onTestSuccess method productImagesCountTest Success
 productImagesCountTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="productInfoTest" classname="com.opencart.tests.ProductPageInfoTest" time="1.172">
+  <testcase name="productInfoTest" classname="com.opencart.tests.ProductPageInfoTest" time="1.183">
     <system-out><![CDATA[productInfoTest started 
 I am in onTestStart method  productInfoTest start
 searching for : macBook
@@ -300,7 +301,7 @@ I am in onTestSuccess method productInfoTest Success
 productInfoTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="userRegTest[Chota, Rajan, 9898767875, cr@123, yes](1)" classname="com.opencart.tests.RegistrationPageTest" time="0.797">
+  <testcase name="userRegTest[Chota, Rajan, 9898767875, cr@123, yes](1)" classname="com.opencart.tests.RegistrationPageTest" time="0.488">
     <system-out><![CDATA[getProductCount started 
 I am in onTestStart method  getProductCount start
 searching for : samsung
@@ -309,7 +310,7 @@ I am in onTestSuccess method userRegTest Success
 userRegTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="userRegTest[Manya, Survey, 9898767876, ms@123, no](2)" classname="com.opencart.tests.RegistrationPageTest" time="0.253">
+  <testcase name="userRegTest[Manya, Survey, 9898767876, ms@123, no](2)" classname="com.opencart.tests.RegistrationPageTest" time="0.014">
     <system-out><![CDATA[productImagesCountTest started 
 I am in onTestStart method  productImagesCountTest start
 searching for : macbook
@@ -317,19 +318,16 @@ I am in onTestSuccess method userRegTest Success
 userRegTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="userRegTest[Rauf, lala, 9898767877, rl@123, yes](3)" classname="com.opencart.tests.RegistrationPageTest" time="0.739">
+  <testcase name="userRegTest[Rauf, lala, 9898767877, rl@123, yes](3)" classname="com.opencart.tests.RegistrationPageTest" time="0.521">
     <system-out><![CDATA[productImagesCountTest started 
 I am in onTestStart method  productImagesCountTest start
 searching for : samsung
-Searching for product : Samsung SyncMaster 941BW
 I am in onTestSuccess method userRegTest Success
 userRegTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="userRegTest[Chota, Shakeel, 9898767878, cs@123, no](4)" classname="com.opencart.tests.RegistrationPageTest" time="1.411">
-    <system-out><![CDATA[I am in onfinish method product page info Test
-Test Suite is ending!
-I am in onTestSuccess method userRegTest Success
+  <testcase name="userRegTest[Chota, Shakeel, 9898767878, cs@123, no](4)" classname="com.opencart.tests.RegistrationPageTest" time="1.221">
+    <system-out><![CDATA[I am in onTestSuccess method userRegTest Success
 userRegTest passed!
 ]]></system-out>
   </testcase>
