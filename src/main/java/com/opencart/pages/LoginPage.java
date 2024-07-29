@@ -11,28 +11,59 @@ import io.qameta.allure.Step;
 
 public class LoginPage {
 
-	// step-1
-
 	private WebDriver driver;
 	private ElementUtil eleUtil;
-
-	// 1. Private By Locators
 
 	private By emailId = By.id("input-email");
 	private By password = By.id("input-password");
 	private By loginBtn = By.xpath("//input[@value='Login']");
 	private By forgotPwdLink = By.linkText("Forgotten Password");
 	private By registerLink = By.linkText("Register");
+	// *** top container contains all the toggle****//
 
-	// 2. Public page class constructor
+	private By currencyToggle = By.xpath("//nav[@id='top']//form[1]");
+	private By listInline = By.xpath("//*[@id='top-links']/ul");
+	private By search = By.id("search");
+	private By cart = By.id("cart");
+	private By pageLogo = By.id("logo");
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		eleUtil = new ElementUtil(driver);
 	}
 
+	@Step("Getting the page logo")
+	public boolean isPageLogoDisplayed() {
+		return eleUtil.isElementDisplayed(pageLogo);
+	}
+
+	@Step("Getting that currency toggle")
+	public boolean isCurrencyToggleExist() {
+
+		return eleUtil.isElementDisplayed(currencyToggle);
+	}
+
+	@Step("Getting inline list")
+	public boolean isContainerToggleExist() {
+
+		return eleUtil.isElementDisplayed(listInline);
+
+	}
+
+	@Step("Getting Search field")
+	public boolean isSearchFieldExist() {
+		return eleUtil.isElementDisplayed(search);
+
+	}
+
+	@Step("Getting cart")
+	public boolean isCartExist() {
+
+		return eleUtil.isElementDisplayed(cart);
+	}
+
 	// 3. Public page actions/method
-    @Step("getting login page title")
+	@Step("getting login page title")
 	public String getLoginPageTitle() {
 
 		String title = eleUtil.waitForTitleIs(AppConstants.LOGIN_PAGE_TITLE, TimeUtil.DEFAULT_MEDIUM_TIME);
@@ -41,12 +72,14 @@ public class LoginPage {
 
 	}
 
+	@Step("Getting the login page URL")
 	public String getLoginPageURL() {
 		String url = eleUtil.waitForURLContains(AppConstants.LOGIN_PAGE_URL_FRACTION, TimeUtil.DEFAULT_MEDIUM_TIME);
 		System.out.println("login page url : " + url);
 		return url;
 	}
 
+	@Step("Getting the forgot password link")
 	public boolean isForgotPwdLinkExist() {
 
 		return eleUtil.isElementDisplayed(forgotPwdLink);
@@ -61,15 +94,15 @@ public class LoginPage {
 		return new AccountsPage(driver);
 
 	}
+
+	@Step("Navigate to the register page")
 	public RegisterationPage navigateToRegisterPage() {
-		
+
 		eleUtil.waitForElementVisible(registerLink, TimeUtil.DEFAULT_LONG_TIME).click();
-		//It will return the object of the registration page
-		
+		// It will return the object of the registration page
+
 		return new RegisterationPage(driver);
-		
+
 	}
-	
-	
 
 }

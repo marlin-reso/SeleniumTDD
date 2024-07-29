@@ -36,15 +36,17 @@ public class BaseTest {
 	// we adding parameter to run the xml suite with different browser which is
 	// provided into xml file;
 	@Step("Setup : launching {0} browser & init the properties")
-	@Parameters({"browser"})
+	@Parameters({"browser","browserversion"})
 	@BeforeTest
-	public void setup(String browserName) {
+	public void setup(String browserName, String browserversion)
+	 {
 
 		df = new DriverFactory();
 		prop = df.initProp();
 
 		if (browserName != null) {
 			prop.setProperty("browser", browserName);
+			prop.setProperty("browserversion", browserversion);
 		}
 
 		driver = df.initDriver(prop);

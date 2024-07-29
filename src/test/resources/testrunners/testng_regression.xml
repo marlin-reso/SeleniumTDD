@@ -15,6 +15,7 @@
 
 	<test name="Login page Test">
 		<parameter name="browser" value="chrome"></parameter>
+		
 		<classes>
 			<class name="com.opencart.tests.LoginPageTest" />
 		</classes>
