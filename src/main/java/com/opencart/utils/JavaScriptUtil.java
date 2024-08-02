@@ -35,6 +35,48 @@ public class JavaScriptUtil {
 		
 	}
 	
+	public String getTitleByJS() {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		return js.executeScript("return document.title;").toString();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
