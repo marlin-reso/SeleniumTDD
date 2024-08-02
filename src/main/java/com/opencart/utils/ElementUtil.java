@@ -18,6 +18,7 @@ import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.opencart.exceptions.ElementException;
+import com.opencart.factory.DriverFactory;
 
 import io.qameta.allure.Step;
 
@@ -25,12 +26,13 @@ import io.qameta.allure.Step;
 public class ElementUtil {
 
 	private WebDriver driver;
-
+	
 	private final String DEFAULT_ELEMENT_TIME_OUT_MESSAGE = "Time out....Element is not found...";
 	private final String DEFAULT_ALERT_TIME_OUT_MESSAGE = "Time out....Alert is not found....";
 
 	public ElementUtil(WebDriver driver) {
 		this.driver = driver;
+		
 	}
 
 	private void nullBlankCheck(String value) {
@@ -94,6 +96,7 @@ public class ElementUtil {
 		WebElement element = null;
 		try {
 			element = driver.findElement(locator);
+			
 		} catch (NoSuchElementException e) {
 			System.out.println("Element is not present on the page");
 			e.printStackTrace();
