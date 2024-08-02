@@ -42,6 +42,41 @@ public class JavaScriptUtil {
 	}
 	
 	
+	public void goBackByJS() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("history.go(-1)");
+		
+	}
+	
+	
+	public void goForwordByJS() {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("history.go(-1)");
+	}
+	
+	public void refreshBrowserByJS() {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("history.go(0);");
+		
+		
+	}
+	
+	public void generateAlert(String message) {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("alert('" + message + "')");
+	}
+	public void generateConfirmPopUp(String message) {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("confirm('" + message + "')");
+		
+		
+	}
+	
+	
 	
 	
 	
