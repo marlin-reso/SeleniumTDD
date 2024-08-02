@@ -7,12 +7,19 @@
   </listeners>
   <test thread-count="5" parallel="tests" name="Login page Test chrome(failed)" verbose="3">
     <parameter name="browser" value="chrome"/>
+    <parameter name="browserversion" value="123.0"/>
     <classes>
       <class name="com.opencart.tests.LoginPageTest">
         <methods>
+          <include name="verifyThatIsCorrencyToggleExist"/>
           <include name="setup"/>
-          <include name="loginPageTitleTest"/>
+          <include name="verifyThatIsCartExist"/>
           <include name="tearDown"/>
+          <include name="verifyThatIsSearchFieldDisplayed"/>
+          <include name="verifyThatIsContainerToggleExist"/>
+          <include name="forgotPwdLinkExistTest"/>
+          <include name="verifyLoginPageLogoVisibleTest"/>
+          <include name="loginTest"/>
         </methods>
       </class> <!-- com.opencart.tests.LoginPageTest -->
     </classes>
