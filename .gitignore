@@ -10,7 +10,7 @@ opencart.log
 java
 ##############
 .mtj.tmp/
-*.class
+#*.class
 *.jar
 *.war
 *.ear
