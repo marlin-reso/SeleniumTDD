@@ -50,7 +50,7 @@ public class AccountsPageTest extends BaseTest{
 	@Test
 	public void searchTest() {
 		
-		accPage.doSearch("mackbook");
+		accPage.doSearch("macbook");
 		
 		
 	}

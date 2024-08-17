@@ -24,6 +24,9 @@ public class AccountsPage {
 	private By headers = By.cssSelector("div#content h2");
 	private By search = By.name("search");
 	private By searchIcon = By.cssSelector("div#search button");
+	/***Edit Account Page*******/
+	private By editAccountLink = By.linkText("Edit Account");
+	
 
 	// 2. Public Page Class const.....
 
@@ -74,5 +77,15 @@ public class AccountsPage {
 		return new SearchResultsPage(driver);
 
 	}
+	
+	public EditAccountPage editAccountPage() {
+		
+		eleUtil.doClick(editAccountLink);
+		return new EditAccountPage(driver);
+	}
+	
+	
+	
+	
 
 }

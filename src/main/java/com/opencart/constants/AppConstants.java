@@ -14,9 +14,12 @@ public class AppConstants {
 
 	public static final String USER_REG_SUCCESS_MESSG = "Your Account Has Been Created!";
 	
+	public static final String USER_EDIT_ACCOUNT_SUCCESS_MSG = "Success: Your account has been successfully updated.";
+	
 	
 	//*********************Excel sheet *************************//
 	
 	public static final String REGISTER_SHEET_NAME = "register";
+	
 
 }
