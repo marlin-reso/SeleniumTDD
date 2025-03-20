@@ -10,4 +10,6 @@ public class AppError {
 	
 	public final static String ENV_NAME_NOT_FOUND = "====WRONG ENV NAME====";
 
+	public final static String HEADER_NOT_FOUND = "======WRONG HEADER======";
+
 }
