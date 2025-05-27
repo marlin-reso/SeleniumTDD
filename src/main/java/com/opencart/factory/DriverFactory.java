@@ -22,7 +22,6 @@ import com.opencart.errors.AppError;
 import com.opencart.exceptions.BrowserException;
 import com.opencart.exceptions.FrameworkException;
 import com.opencart.logger.Log;
-import com.opencart.pathConstant.PropertyFilePath;
 
 public class DriverFactory {
 	// step-2
@@ -132,29 +131,29 @@ public class DriverFactory {
 
 			if (envName == null) {
 				System.out.println("No env is given ...hence running it n QA env......");
-				ip = new FileInputStream(PropertyFilePath.qaPath);
+				ip = new FileInputStream(com.opencart.constants.PropertyFilePath.qaPath);
 
 			} else {
 
 				switch (envName.toLowerCase().trim()) {
 				case "qa":
-					ip = new FileInputStream(PropertyFilePath.qaPath);
+					ip = new FileInputStream(com.opencart.constants.PropertyFilePath.qaPath);
 					break;
 
 				case "dev":
-					ip = new FileInputStream(PropertyFilePath.devPath);
+					ip = new FileInputStream(com.opencart.constants.PropertyFilePath.devPath);
 					break;
 
 				case "stage":
-					ip = new FileInputStream(PropertyFilePath.stagePath);
+					ip = new FileInputStream(com.opencart.constants.PropertyFilePath.stagePath);
 					break;
 
 				case "uat":
-					ip = new FileInputStream(PropertyFilePath.uatPath);
+					ip = new FileInputStream(com.opencart.constants.PropertyFilePath.uatPath);
 					break;
 
 				case "prod":
-					ip = new FileInputStream(PropertyFilePath.prodPath);
+					ip = new FileInputStream(com.opencart.constants.PropertyFilePath.prodPath);
 					break;
 
 				default:
