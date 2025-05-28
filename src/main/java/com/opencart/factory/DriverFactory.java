@@ -131,7 +131,7 @@ public class DriverFactory {
 
 			if (envName == null) {
 				System.out.println("No env is given ...hence running it n QA env......");
-				ip = new FileInputStream(com.opencart.constants.PropertyFilePath.qaPath);
+				ip = new FileInputStream(PropertyFilePath.qaPath);
 
 			} else {
 
