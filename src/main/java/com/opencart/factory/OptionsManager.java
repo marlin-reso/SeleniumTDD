@@ -29,7 +29,7 @@ public class OptionsManager {
 			Map<String, Object> selenoidOptions = new HashMap<>();
 			selenoidOptions.put("screenResolution", "1920x1080");
 			selenoidOptions.put("enableVNC", true);
-			// selenoidOptions.put("name", prop.getProperty("testname"));
+			 selenoidOptions.put("name", prop.getProperty("testname"));
 			co.setCapability("selenoid:options", selenoidOptions);
 
 		}
