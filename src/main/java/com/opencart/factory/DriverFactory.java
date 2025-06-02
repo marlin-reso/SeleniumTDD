@@ -18,6 +18,7 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+import com.opencart.constants.AppConstants;
 import com.opencart.constants.Path;
 import com.opencart.errors.AppError;
 import com.opencart.exceptions.BrowserException;
@@ -132,29 +133,29 @@ public class DriverFactory {
 
 			if (envName == null) {
 				System.out.println("No env is given ...hence running it n QA env......");
-				ip = new FileInputStream(Path.qaPath);
+				ip = new FileInputStream(AppConstants.qaPath);
 
 			} else {
 
 				switch (envName.toLowerCase().trim()) {
 				case "qa":
-					ip = new FileInputStream(Path.qaPath);
+					ip = new FileInputStream(AppConstants.qaPath);
 					break;
 
 				case "dev":
-					ip = new FileInputStream(Path.devPath);
+					ip = new FileInputStream(AppConstants.devPath);
 					break;
 
 				case "stage":
-					ip = new FileInputStream(Path.stagePath);
+					ip = new FileInputStream(AppConstants.stagePath);
 					break;
 
 				case "uat":
-					ip = new FileInputStream(Path.uatPath);
+					ip = new FileInputStream(AppConstants.uatPath);
 					break;
 
 				case "prod":
-					ip = new FileInputStream(Path.prodPath);
+					ip = new FileInputStream(AppConstants.prodPath);
 					break;
 
 				default:

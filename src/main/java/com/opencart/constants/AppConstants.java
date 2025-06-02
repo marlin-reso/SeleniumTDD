@@ -21,5 +21,16 @@ public class AppConstants {
 	
 	public static final String REGISTER_SHEET_NAME = "register";
 	
+	
+    public static final String qaPath = "./src/test/resources/config/config.qa.properties";
+	
+	public static final String devPath = "./src/test/resources/config/config.dev.properties";
+	
+	public static final String stagePath = "./src/test/resources/config/config.stage.properties";
+	
+	public static final String uatPath = "./src/test/resources/config/config.uat.properties";
+	
+	public static final String prodPath = "./src/test/resources/config/config.properties";
+	
 
 }
