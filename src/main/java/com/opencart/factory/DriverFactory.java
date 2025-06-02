@@ -19,7 +19,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import com.opencart.constants.AppConstants;
-import com.opencart.constants.Path;
 import com.opencart.errors.AppError;
 import com.opencart.exceptions.BrowserException;
 import com.opencart.exceptions.FrameworkException;
