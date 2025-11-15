@@ -127,22 +127,44 @@ This framework follows **TDD principles**, ensuring tests are written first and 
 ### 1️⃣ Write a failing test (RED)
 
 ```java
-@Test
-public void verifyValidLogin() {
-    LoginPage login = new LoginPage(driver);
-    Assert.assertTrue(login.login("admin", "admin123"));
-}
+@DataProvider
+	public Object[][] getProductSearchData() {
+
+		return new Object[][] { { "macbook", "MacBook Pro" }, { "imac", "iMac" },
+				{ "samsung", "Samsung SyncMaster 941BW" }, { "samsung", "Samsung Galaxy Tab 10.1" } };
+
+	}
+
+	@Test(dataProvider = "getProductSearchData")
+	public void productHeaderTest(String searchKey, String productName) {
+		searchResultsPage = accPage.doSearch(searchKey);
+		productInfoPage = searchResultsPage.selectProduct(productName);
+		Assert.assertEquals(productInfoPage.getProductHeader(), productName);
+	}
 ```
 
 ### 2️⃣ Implement minimum code (GREEN)
 
 ```java
-public boolean login(String user, String pass) {
-    driver.findElement(username).sendKeys(user);
-    driver.findElement(password).sendKeys(pass);
-    driver.findElement(loginBtn).click();
-    return driver.getTitle().contains("Dashboard");
-}
+@Step("login with username: {0} and password: {1}")
+	public AccountsPage doLogin(String username, String pwd) {
+
+		eleUtil.waitForElementVisible(emailId, TimeUtil.DEFAULT_LONG_TIME).sendKeys(username);
+		eleUtil.doSendKeys(password, pwd);
+		eleUtil.doClick(loginBtn);
+		return new AccountsPage(driver);
+
+	}
+
+	@Step("Navigate to the register page")
+	public RegisterationPage navigateToRegisterPage() {
+
+		eleUtil.waitForElementVisible(registerLink, TimeUtil.DEFAULT_LONG_TIME).click();
+		// It will return the object of the registration page
+
+		return new RegisterationPage(driver);
+
+	}
 ```
 
 ### 3️⃣ Refactor
