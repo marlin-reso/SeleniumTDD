@@ -1,9 +1,5 @@
 # 🧪 Selenium TDD Framework — Java
 
-<p align="center">
-  <img src="https://media.giphy.com/media/26xBPgjq3xCwqhTLO/giphy.gif" width="600" />
-</p>
-
 Welcome to the **Selenium TDD (Test-Driven Development) Framework** built using **Java**, **TestNG**, **Page Object Model (POM)**, **Maven**, and **Jenkins**.
 
 This framework follows **TDD principles**, ensuring tests are written first and automation code evolves based on test cases.
