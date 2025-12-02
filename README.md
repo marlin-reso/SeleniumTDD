@@ -109,7 +109,7 @@ This framework follows **TDD principles**, ensuring tests are written first and 
 │               ├── testng_edge.xml
 │               ├── testng_firefox.xml
 │               ├── testng_loginPage.xml
-│               └── testng_regression.xml
+│               └── testng_regression.
 
 
 
