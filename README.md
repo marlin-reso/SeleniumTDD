@@ -25,7 +25,7 @@ This framework follows **TDD principles**, ensuring tests are written first and 
 ✔ Page Object Model (POM) design pattern.
 ✔ Centralized WebDriver management.
 ✔ TestNG annotations for test execution control
-✔ Maven-managed dependencies.
+✔ Maven-managed dependencies.....
 ✔ Extent Allure reporting support (optional).
 ✔ Jenkins pipeline integration.
 ✔ Cross-browser support (Chrome, Firefox, Edge).
