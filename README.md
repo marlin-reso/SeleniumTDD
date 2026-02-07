@@ -26,7 +26,7 @@ This framework follows **TDD principles**, ensuring tests are written first and 
 ✔ Centralized WebDriver management.
 ✔ TestNG annotations for test execution control
 ✔ Maven-managed dependencies.....
-✔ Extent Allure reporting support (optional).
+✔ Extent Allure reporting support (optional).......
 ✔ Jenkins pipeline integration.
 ✔ Cross-browser support (Chrome, Firefox, Edge).
 ✔ Screenshot capture on failure.
